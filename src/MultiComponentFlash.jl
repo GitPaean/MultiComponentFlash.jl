@@ -1,6 +1,7 @@
 
 module MultiComponentFlash
     using LinearAlgebra, ForwardDiff, StaticArrays, Roots
+    using Infiltrator # for debugging
     # Constants.
     const MINIMUM_COMPOSITION = 1e-10
     const IDEAL_GAS_CONSTANT = 8.3144598
